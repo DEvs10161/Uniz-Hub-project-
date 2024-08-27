@@ -1,7 +1,7 @@
 
 
 
-#Uniz Hub☄️
+# Uniz Hub☄️
 Overview
 Uniz Hub is a versatile Roblox hub script designed to enhance your gameplay experience. It features advanced Aimlock, ESP (Extrasensory Perception), customizable movement options, and a robust idea submission system. Built with the Rayfield UI framework, it offers a user-friendly and customizable interface for all your needs.
 
