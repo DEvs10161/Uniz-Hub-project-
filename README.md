@@ -24,7 +24,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For support or inquiries, please join our support Discord server or contact the developers directly.
+For support or inquiries, please join our [Discord server ](https://discord.gg/tNGAuk62YA).or contact the developers directly.
 
 
   ## Loadstring
