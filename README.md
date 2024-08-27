@@ -3,7 +3,11 @@ Uniz Hub Script Uniz Hub is a comprehensive Roblox exploit script designed to en
 
   ## Loadstring
 
-Loadstring to execute Uniz hub!
+Loadstring to execute Uniz hub! fluent version 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DEvs10161/Uniz-Hub-project-/main/Main2",true))()
 ```
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DEvs10161/Uniz-Hub-project-/main/Main",true))()
+```
+Fluent version 
