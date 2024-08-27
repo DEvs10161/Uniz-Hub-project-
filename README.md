@@ -1,5 +1,31 @@
-# Uniz Hub project 
-Uniz Hub Script Uniz Hub is a comprehensive Roblox exploit script designed to enhance gameplay through a variety of powerful features. Built using the Rayfield UI framework, this script offers an intuitive and user-friendly interface. Below is a breakdown of the key features included in the Uniz Hub Script:  Key Features: Aimlock System:  Target Part Selection: Choose between Head, Torso, or Legs as the aimlock target. Field of View (FOV) Control: Customize the FOV for aimlock to determine the lock-on area. Aimlock Keybind: Set your preferred key to toggle aimlock. Prediction Slider: Adjust prediction time to account for player movement. Team Check: Enable or disable aimlock for players on the same team. ESP (Extra Sensory Perception):  Enable ESP: Toggle ESP on or off. Custom ESP Shapes: Choose between different ESP indicators like boxes, outlines, or highlights to differentiate enemies from allies. ESP Color Customization: Pick custom colors for ESP fill and outline. Camera Field of View (FOV) Adjustment: Modify the camera's FOV to enhance your visual experience. Movement Enhancements:  Fly Toggle: Enable or disable flying with adjustable speed. Jump Height Slider: Control the height of your jumps. Walk Speed Slider: Adjust your character's walking speed. Cross-Server Chat:  Global Chat Integration: Communicate with players across different servers through a dedicated chat system. In-Game Help:  Help Tab: Access an in-game help section that explains each feature, making it easier for new users to understand and utilize the script. Credits:  Acknowledgment: Recognizes the contributions of Uniz, 00017717, and the Rayfield Library for creating the UI framework. User Interface: Intuitive Design: The script is easy to navigate, with clear labels and descriptions for each feature. Customizable Settings: Users can save their configurations, ensuring their preferred settings are always ready for use. Uniz Hub is an all-in-one script for Roblox players looking to gain an edge in gameplay while maintaining a streamlined and customizable experience.
+
+Here's the revised GitHub description for the Uniz Hub☄️ project, excluding the installation section:
+
+Uniz Hub☄️
+Overview
+Uniz Hub is a versatile Roblox hub script designed to enhance your gameplay experience. It features advanced Aimlock, ESP (Extrasensory Perception), customizable movement options, and a robust idea submission system. Built with the Rayfield UI framework, it offers a user-friendly and customizable interface for all your needs.
+
+Features
+Aimlock System
+<details> <summary>Click to expand</summary> - **Target Part Selection:** Lock onto specific parts of the target (Head, Torso, Legs). - **Field of View (FOV) Adjustment:** Set the detection area for aimlock. - **Prediction Adjustment:** Adjust prediction settings for moving targets. - **Team Check:** Option to exclude teammates from targeting. </details>
+ESP (Extrasensory Perception)
+<details> <summary>Click to expand</summary> - **Enable/Disable ESP:** Toggle ESP functionality as needed. - **Color Customization:** Choose colors for ESP fill and outline. - **Shape Options:** Select between Box, Outline, or Highlight for ESP shapes. </details>
+Movement Enhancements
+<details> <summary>Click to expand</summary> - **Fly Mode:** Enable and customize fly speed. - **Jump Height:** Adjust jump height for better mobility. - **Walk Speed:** Modify walking speed according to your preference. </details>
+Idea Submission System
+<details> <summary>Click to expand</summary> - **Title and Description Input:** Enter and format ideas using a rich text editor. - **Category Selection:** Categorize ideas into Gameplay, UI/UX, Performance, Bugs, or Other. - **Rating System:** Rate your idea from 1 to 5 stars. - **File Attachment:** Attach files or screenshots to submissions. - **Preview and Submit:** Preview your idea before submitting with a confirmation prompt. - **Discord Integration:** Submit ideas via a Discord webhook for easy tracking and review. </details>
+Help and Credits
+<details> <summary>Click to expand</summary> - **In-Game Help:** Access guidance on using the various features of Uniz Hub. - **Credits Tab:** View acknowledgments and credits for contributors and tools used. </details>
+Contributing
+Bug Reports: Report issues on our GitHub Issues page.
+Feature Requests: Submit suggestions through the Issues page.
+Contributions: Fork the repository and submit pull requests for enhancements.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact
+For support or inquiries, please join our support Discord server or contact the developers directly.
+
 
   ## Loadstring
 
