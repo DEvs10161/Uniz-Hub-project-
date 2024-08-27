@@ -7,7 +7,7 @@ Loadstring to execute Uniz hub! fluent version
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DEvs10161/Uniz-Hub-project-/main/Main2",true))()
 ```
+Normal version 
 ```lua
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DEvs10161/Uniz-Hub-project-/main/Main",true))()
 ```
-Fluent version 
