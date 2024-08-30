@@ -1,0 +1,25 @@
+local UnizHubUI = require(game.ServerScriptService.UnizHubUI)
+
+-- Create the main window
+local window = UnizHubUI:CreateWindow({
+    Title = "Modal Dialog Example",
+    Size = UDim2.new(0, 400, 0, 300),
+    ThemeColor = Color3.fromRGB(255, 69, 0)
+})
+
+-- Function to show a modal dialog
+local function showModal()
+    window:AddModalDialog(
+        "Confirm Action",
+        "Are you sure you want to proceed?",
+        function()
+            print("Confirmed")
+        end,
+        function()
+            print("Cancelled")
+        end
+    )
+end
+
+-- Show the modal dialog when the script runs
+showModal()
