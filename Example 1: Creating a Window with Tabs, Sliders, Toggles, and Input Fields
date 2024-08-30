@@ -1,0 +1,62 @@
+local UnizHubUI = require(game.ServerScriptService.UnizHubUI)
+
+-- Create the main window
+local window = UnizHubUI:CreateWindow({
+    Title = "Advanced Uniz Hub",
+    Size = UDim2.new(0, 500, 0, 400),
+    ThemeColor = Color3.fromRGB(0, 128, 255),
+    IconID = "1234567890" -- Replace with your icon ID
+})
+
+-- Add a tab group
+local tabGroup = window:AddTabGroup("MainTabs")
+
+-- Add a tab to the tab group
+local tab1 = tabGroup:AddTab("Tab 1", "iconId1") -- Replace with your icon ID
+local tab2 = tabGroup:AddTab("Tab 2", "iconId2") -- Replace with your icon ID
+
+-- Add a section to the first tab
+local section1 = tab1:AddSection("First Section")
+
+-- Add a toggle to the first section
+section1:AddToggle("Enable Feature", true, function(enabled)
+    print("Feature enabled:", enabled)
+end)
+
+-- Add a slider to the first section
+section1:AddSlider("Volume", 0, 100, 50, function(value)
+    print("Volume set to:", value)
+end)
+
+-- Add an input field to the first section
+section1:AddInputField("Username", "Enter your username", function(input)
+    print("Username entered:", input)
+end)
+
+-- Add a dropdown to the first section
+section1:AddDropdown("Select Option", {"Option 1", "Option 2", "Option 3"}, "Option 1", function(selected)
+    print("Dropdown selected:", selected)
+end)
+
+-- Add a section to the second tab
+local section2 = tab2:AddSection("Second Section")
+
+-- Add a toggle to the second section
+section2:AddToggle("Enable Option", false, function(enabled)
+    print("Option enabled:", enabled)
+end)
+
+-- Add a slider to the second section
+section2:AddSlider("Brightness", 0, 100, 75, function(value)
+    print("Brightness set to:", value)
+end)
+
+-- Add an input field to the second section
+section2:AddInputField("Email", "Enter your email", function(input)
+    print("Email entered:", input)
+end)
+
+-- Add a dropdown to the second section
+section2:AddDropdown("Select Color", {"Red", "Green", "Blue"}, "Green", function(selected)
+    print("Color selected:", selected)
+end)
