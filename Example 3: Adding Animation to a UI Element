@@ -1,0 +1,28 @@
+local UnizHubUI = require(game.ServerScriptService.UnizHubUI)
+
+-- Create the main window
+local window = UnizHubUI:CreateWindow({
+    Title = "Animation Example",
+    Size = UDim2.new(0, 400, 0, 300),
+    ThemeColor = Color3.fromRGB(255, 20, 147)
+})
+
+-- Add a tab
+local tab = window:AddTab("Animated Tab")
+
+-- Add a section to the tab
+local section = tab:AddSection("Animation Section")
+
+-- Add a frame to animate
+local animatedFrame = Instance.new("Frame")
+animatedFrame.Name = "AnimatedFrame"
+animatedFrame.Size = UDim2.new(0, 100, 0, 100)
+animatedFrame.Position = UDim2.new(0, 50, 0, 50)
+animatedFrame.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
+animatedFrame.Parent = section.Content
+
+-- Add animation to the frame
+window:AddAnimation("AnimatedFrame", Enum.EasingStyle.Bounce, 2, {
+    Size = UDim2.new(0, 200, 0, 200),
+    Position = UDim2.new(0, 150, 0, 150)
+})
